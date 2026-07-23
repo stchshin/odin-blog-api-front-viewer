@@ -1,0 +1,67 @@
+.postDetail {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.postInfo {
+    color: grey;
+}
+
+.postContent {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.comments h2 {
+    font-size: 1.2rem;
+}
+
+.comments h2 span {
+    font-size: 1rem;
+}
+
+.comments form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 30rem;
+
+}
+
+.comments form > div {
+    display: flex;
+    gap: 1rem;
+}
+
+.comments form label {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.comments form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px black;
+}
+
+.comments form input:focus {
+    outline: none;
+}
+
+.comments form button {
+    width: 5rem;
+    margin-left: auto;
+}
+
+.commentInfo {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
